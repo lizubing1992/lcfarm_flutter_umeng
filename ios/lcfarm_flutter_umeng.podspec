@@ -18,7 +18,7 @@ A new flutter plugin project.
 
   s.ios.deployment_target = '8.0'
 
-  s.dependency 'UMCommon'
+  s.dependency 'UMCCommon'
   s.dependency 'UMDevice'
 
   s.dependency 'UMAPM'
