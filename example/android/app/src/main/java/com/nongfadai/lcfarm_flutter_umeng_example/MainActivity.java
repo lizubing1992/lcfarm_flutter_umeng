@@ -5,7 +5,7 @@ import io.flutter.app.FlutterActivity;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 
 
-import com.umeng.analytics.MobclickAgent;
+//import com.umeng.analytics.MobclickAgent;
 
 public class MainActivity extends FlutterActivity {
   @Override
@@ -17,13 +17,13 @@ public class MainActivity extends FlutterActivity {
 
   public void onResume() {
     super.onResume();
-    MobclickAgent.onResume(this);
+//    MobclickAgent.onResume(this);
 
   }
 
   public void onPause() {
     super.onPause();
-    MobclickAgent.onPause(this);
+//    MobclickAgent.onPause(this);
   }
 
 }
