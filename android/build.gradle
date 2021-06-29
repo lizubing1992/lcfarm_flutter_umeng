@@ -11,7 +11,7 @@ buildscript {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
-        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://repo1.maven.org/maven2/' }
     }
 
     dependencies {
@@ -29,7 +29,7 @@ rootProject.allprojects {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
-        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://repo1.maven.org/maven2/' }
     }
 }
 
@@ -47,8 +47,8 @@ android {
     }
 
     dependencies {
-        implementation  'com.umeng.umsdk:common:9.3.3'
-        implementation  'com.umeng.umsdk:asms:1.2.0' // 必选
+        implementation  'com.umeng.umsdk:common:9.3.8'
+        implementation  'com.umeng.umsdk:asms:1.2.3' // 必选
     }
 
 }
